@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price house prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='PriceIndexPage.css') }}">
+</head>
+<body>
+<div class="background"></div>
+<h1> 台灣房市預測 2024/4 </h1>
+<form action="/predict" method="post">
+    <label for="shape">Shape:</label><br>
+    <input type="text" id="shape" name="shape"><br>
+    <label for="area">Area:</label><br>
+    <input type="text" id="area" name="area" step="0.01"><br>
+    <label for="main_area">Main Area:</label><br>
+    <input type="text" id="main_area" name="main_area" step="0.01"><br>
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br>
+    <label for="top_school">Top School:</label><br>
+    <input type="number" id="top_school" name="top_school"><br>
+    <label for="parking">Parking:</label><br>
+    <input type="number" id="parking" name="parking"><br>
+    <label for="balcony">Balcony:</label><br>
+    <input type="number" id="balcony" name="balcony"><br>
+    <label for="low_struct">Low Struct:</label><br>
+    <input type="number" id="low_struct" name="low_struct"><br>
+    <label for="district">District:</label><br>
+    <input type="text" id="district" name="district"><br>
+    <label for="room">Room:</label><br>
+    <input type="number" id="room" name="room"><br>
+    <label for="living_room">Living Room:</label><br>
+    <input type="number" id="living_room" name="living_room"><br>
+    <label for="bathroom">Bathroom:</label><br>
+    <input type="number" id="bathroom" name="bathroom"><br>
+    <label for="floor_min">Floor Min:</label><br>
+    <input type="number" id="floor_min" name="floor_min"><br>
+    <label for="floor_max">Floor Max:</label><br>
+    <input type="number" id="floor_max" name="floor_max"><br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

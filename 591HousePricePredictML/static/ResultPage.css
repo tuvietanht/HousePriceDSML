@@ -1,0 +1,23 @@
+body , html{
+    background-image: url('img_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #F0FFFF;
+}
+
+span {
+    font-weight: bold;
+    height : 80%;
+    color: #F8F8FF;
+    text-align: center;
+}
