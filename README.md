@@ -4,4 +4,10 @@ With Real Estate Price Predictor, you can predict home prices and uncover potent
 ## Data Colletion 
 + Data for our housing price prediction model was collected directly from [591 Real Estate](https://www.591.com.tw/), a leading real estate website in Taiwan.
 
-![Video_2024-05-08_011917](https://github.com/tuvietanht/HousePriceDSML/assets/101501013/65e1acd8-5c9e-4be8-8409-9691d0fa13a3)
+
+![DataCollection](https://github.com/tuvietanht/HousePriceDSML/assets/101501013/5b8f3d3b-a93e-4610-bbf4-9a6ccbcacb1e)
+
+
+## Deployment
++ To be easy testing and interaction with my housing price prediction model, I deployed the model on a simple web interface. This website allows users to input various house features such as location, size, year built, and more, and then receive real-time predictions on housing prices based on the trained model.
+
