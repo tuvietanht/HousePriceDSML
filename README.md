@@ -11,3 +11,7 @@ With Real Estate Price Predictor, you can predict home prices and uncover potent
 ## Deployment
 + To be easy testing and interaction with my housing price prediction model, I deployed the model on a simple web interface. This website allows users to input various house features such as location, size, year built, and more, and then receive real-time predictions on housing prices based on the trained model.
 
+
+https://github.com/tuvietanht/HousePriceDSML/assets/101501013/e17ff340-d1ff-467e-bdcb-1ec058e7f015
+
+
